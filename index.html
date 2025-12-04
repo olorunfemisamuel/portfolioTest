@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+    <main class="bg-black text-white">
+
+        <!--navbar-->
+        <header class="sticky top-0 right-0 left-0 bg-black z-10">
+            <nav class = "flex justify-between items-center py-2 px-6">
+
+                <!--logo text-->
+                <div class = "flex items-center">
+                    <span class = "w-4 h-4 bg-yellow-400 block rounded-lg"></span>
+                    <div class = "ml-2 text-3xl font-bold text-gray-200">Samuel</div>
+                </div>
+
+                <!---menu items-->
+                <div class="text-gray-400 items-center max-md:hidden">
+                    <a href="" class="mx-3 hover:text-yellow-500">Home</a>
+                    <a href="" class="mx-3 hover:text-yellow-500">About</a>
+                     <a href="" class="mx-3 hover:text-yellow-500">Process</a>
+                      <a href="" class="mx-3 hover:text-yellow-500">Portfolio</a>
+                </div>
+
+                <!--login btn-->
+                <div class="max-md:hidden">
+                  <a href="http://" target="_blank" rel="noopener noreferrer" class="mr-4 py-2 px-3 rounded-lg shadow-sm shadow-yellow-400 bg-yellow-400 text-gray-900 hover:text-gray-800 hover:bg-yellow-300">Contact</a>
+                </div>
+
+                <!--menu hamburger responsive-->
+                <div id="menu-btn" class="block md:hidden cursor-pointer">
+                    <span class="w-4 h-1 bg-white block mb-2"></span>
+                    <span class="w-6 h-1 bg-white block mb-2"></span>
+                    <span class="w-5 h-1  bg-white block mb-2"></span>
+                </div>
+
+                   </nav>
+
+<!----Putting Navigation Links into Hamburger Menu-->
+    <div id="mobile-menu" class="hidden flex-col bg-gray-900 text-gray-300 px-6 py-4 space-y-4">
+    <a href="" class="hover:text-yellow-500 block">Home</a>
+    <a href="" class="hover:text-yellow-500 block">About</a>
+    <a href="" class="hover:text-yellow-500 block">Process</a>
+    <a href="" class="hover:text-yellow-500">Portfolio</a>
+</div>
+
+        </header>
+
+                <!--hero section-->
+                <section class="h-screen flex items-center max-md:flex-col max-md:mt-10">
+
+                    <!---Hero text-->
+                    <div class="w-full px-4 py-4 mb-6">
+                        <h1 class="capitalize max-md:text-5xl text-7xl text-amber-300 font-semibold mb-10">Hello, I'm Samuel <br> Olorunfemi</h1>
+                        <p class="text-xl max-md:text-base mb-4 text-white">I’m a Frontend web developer based in Kaduna, Nigeria. <br>
+                            I strive to build immersive and beautiful web applications through carefully crafted code.  </p>
+
+                        <!--CTA Btn-->
+                        <p class="text-yellow-400 max-md:text-sm mb-6">Say Hello!</p>
+         <button class="px-6 py-2 rounded-full shadow-sm shadow-black bg-blue-500 hover:bg-blue-700 cursor-pointer">Contact</button>
+                    </div>
+
+                    <!--Hero Img-->
+                   <div class="w-4/5 flex items-center justify-center max-md:block">
+    <img src="_AIB0299-Recovered.jpg" alt="" class="rounded-4xl w-4/5 h-auto">
+</div>
+
+                </section>
+
+         
+    </main>
+
+    <script src = "script.js"></script>
+</body>
+</html>
