@@ -651,6 +651,22 @@ video {
   width: 100%;
 }
 
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideInUp {
+  animation: slideInUp 2s ease-out forwards;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
