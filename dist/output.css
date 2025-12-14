@@ -615,8 +615,8 @@ video {
   display: none;
 }
 
-.h-1 {
-  height: 0.25rem;
+.h-0\.5 {
+  height: 0.125rem;
 }
 
 .h-4 {
@@ -687,6 +687,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-0\.5 {
+  gap: 0.125rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -724,6 +728,10 @@ video {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .px-3 {
